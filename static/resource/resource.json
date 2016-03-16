@@ -1,0 +1,45 @@
+{
+	"resources": [
+		{
+			"name": "bgImage",
+			"type": "image",
+			"url": "assets/bg.jpg"
+		},
+		{
+			"name": "egretIcon",
+			"type": "image",
+			"url": "assets/egret_icon.png"
+		},
+		{
+			"name": "cry",
+			"type": "image",
+			"url": "assets/cry.jpg"
+		},
+		{
+			"name": "laugh",
+			"type": "image",
+			"url": "assets/laugh.jpg"
+		},
+		{
+			"name": "next",
+			"type": "image",
+			"url": "assets/next.jpg"
+		},
+		{
+			"name": "retry",
+			"type": "image",
+			"url": "assets/retry.jpg"
+		},
+		{
+			"name": "description",
+			"type": "json",
+			"url": "config/description.json"
+		}
+	],
+	"groups": [
+		{
+			"name": "preload",
+			"keys": "bgImage,egretIcon,laugh, cry, next, retry"
+		}
+	]
+}
